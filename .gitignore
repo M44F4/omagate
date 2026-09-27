@@ -1,0 +1,6 @@
+# OS/editor cruft
+.DS_Store
+*.swp
+
+# Screenshots: hosted as release assets, not repo content.
+/screenshots/

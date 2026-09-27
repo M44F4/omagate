@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "m44f4.omagate",
+  "name": "OmaGate",
+  "version": "0.1.0",
+  "author": "M44F4",
+  "license": "MIT",
+  "description": "Guard your USB ports: eject and write-protect drives, block devices you don't trust, and keep an eye on network, displays, Thunderbolt, and dev servers. Matches your Omarchy theme, with nothing extra to install",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "OmaGate",
+    "description": "USB port guard with eject, write-protect, and device blocking",
+    "category": "System",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
